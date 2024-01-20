@@ -10,7 +10,7 @@
 }
 
 .navbar{
-background-color: #142b3d !important;
+background-color: #030d22 !important;
 }
 
 .nav-logo{
@@ -24,6 +24,7 @@ background-color: #142b3d !important;
 
 .navbar-text a.nav-link{
     margin-right: 20px;
+    color: #6cd3e0
 }
 .navbar-toggler{
     line-height: 1;
@@ -32,16 +33,16 @@ background-color: #142b3d !important;
     background: #e4d5b7;
 }
 .navbar-nav .nav-link{
-    color: #000000 !important;
+    color: #6cd3e0 !important;
 }
 .navbar-nav .nav-link:hover{
     color: #019ef8 !important;
 }
 .nav-link{
-    color: #000000;
+    color: #6cd3e0;
 }
 nav.bg-body-tertiary{
-    background-color:#142b3d ;
+    background-color:#142b3d;
 }
 
 /*Fin Navbar*/
@@ -61,12 +62,12 @@ nav div.container3 input{
     width: 320px;
 }
 nav div.container3 button{
-    background-color: #e4d5b7;
-    color: #827968;
+    background-color: #0d325c;
+    color: #6cd3e0;
     border: none;
 }
 nav div.container3 button:hover{
-    background-color:#827968;
+    background-color:#019ef8;
     color: #ebeae7;
 }
 
@@ -83,7 +84,7 @@ nav div.container3 button:hover{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    color: #ebeae7;
+    color: #6cd3e0;
     padding: 80px;
     gap: 20px;
 }
@@ -93,15 +94,15 @@ nav div.container3 button:hover{
     background-position: center;
 }
 .left h1{
-    color:#ebeae7 ;
+    color:#6cd3e0 ;
     font-size: 3.2rem;
     font-weight: 900;
     margin-top: 50px;
 }
 
 .left a{
-    background: #e4d5b7;
-    color: #827968;
+    background: #0d325c;
+    color: #6cd3e0;
     font-weight: bold;
     padding: 4px 25px;
     border-radius: 15px;
@@ -109,7 +110,7 @@ nav div.container3 button:hover{
 }
 
 .left a:hover{
-    background-color: #827968;
+    background-color: #019ef8;
     color: #ebeae7;
 }
 .left h2{
@@ -140,7 +141,7 @@ nav div.container3 button:hover{
 .titulo1 {
     text-align: center;
     margin-top: 0.75rem; 
-    color:var(--primary-dark);
+    color: #6cd3e0;
 }
 
 .titulo2{
@@ -171,7 +172,7 @@ nav div.container3 button:hover{
     flex:1;
     max-width: 300px;
     min-width:200px;
-    box-shadow: 1px 1px 1px 1px rgba(6, 7, 22, 0.1);
+    box-shadow: 1px 1px 1px 1px rgba(4, 10, 100, 0.1);
 }
 
 .card img.card-img-top {
@@ -203,7 +204,7 @@ nav div.container3 button:hover{
 
 .card-text{
     font-size: 14px;
-    color:#777;
+    color:#777777;
 
 }
 
@@ -314,8 +315,8 @@ nav div.container3 button:hover{
     --primary-main:#030d22;
     --primary-dark:#313142;
     --primary-light:#33445a;
-    --secondary-main:#e4d5b7;
-    --secondary-dark: #827968;
-    --secondary-light: #ebeae7;
+    --secondary-main:#0d325c;
+    --secondary-dark:  #019ef8;
+    --secondary-light: #6cd3e0;
    
     }
