@@ -11,6 +11,7 @@
 
 .navbar{
 background-color: #030d22 !important;
+
 }
 
 .nav-logo{
@@ -41,16 +42,13 @@ background-color: #030d22 !important;
 .nav-link{
     color: #6cd3e0;
 }
-nav.bg-body-tertiary{
-    background-color:#142b3d;
-}
+
 
 /*Fin Navbar*/
 
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -59,7 +57,7 @@ nav div.container3{
     width: 100%;
 }
 nav div.container3 input{
-    width: 320px;
+    width: 100%;
 }
 nav div.container3 button{
     background-color: #0d325c;
@@ -320,3 +318,5 @@ nav div.container3 button:hover{
     --secondary-light: #6cd3e0;
    
     }
+    
+   
