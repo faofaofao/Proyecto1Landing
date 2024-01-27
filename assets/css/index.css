@@ -28,9 +28,9 @@ body {
 }
 
 .nav-logo {
-    height: 40px;
+    height: 55px;
     margin-right: 26px;
-    filter: brightness(3);
+    filter: brightness(4);
 }
 
 .navbar-nav .nav-item:first-child .nav-link {
@@ -44,9 +44,9 @@ body {
 
 .navbar-toggler {
     line-height: 1;
-    color: #ebeae7 !important;
-    background-color: #827968;
-    background: #e4d5b7;
+    color: #439dda !important;
+    background-color: #5584c2;
+    background: #2a90be;
 }
 
 .navbar-nav .nav-link {
@@ -264,7 +264,9 @@ nav div.container3 button:hover {
     padding: 50px 80px;
     color: var(--secondary-main);
 }
-
+.container2 {
+    width: 100%;
+}
 .footer-row {
     display: flex;
     flex-wrap: wrap;
@@ -307,6 +309,7 @@ nav div.container3 button:hover {
 
 .social-links {
     display: flex;
+margin-left: 70px;
 }
 
 .social-links a {
